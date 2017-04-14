@@ -1,9 +1,23 @@
 title: Geronimo Poppino
 email: developer@geronimo.guru
 name: Geronimo Poppino
+
 theme: jekyll-theme-tactile
+
 github_username: gpoppino
 linkedin_username: geronimo-poppino
-description: Personal Web Site of Geronimo Poppino
+flickr_username: _geronimo_
+instagram_username: geropop
+description: My Personal Web Site
+
+kramdown:
+    input: GFM
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
 gems:
-    - jekyll-octicons
+    - jemoji
+    - jekyll-paginate
+    - github-pages 
