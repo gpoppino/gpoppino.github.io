@@ -1,5 +1,9 @@
 ---
 layout: post
+categories: documentation jekyll
+tags:
+- documentation
+- jekyll
 ---
 
 I have recently been considering working with [GiHub
@@ -15,12 +19,11 @@ as a GitHub Page in your repos settings, you pick a theme and that's it.
 However, perfecting your documentation is trial and error when working with
 markdown and more so if you are using vim and not github's editor. Anyway, it is
 highly recommended to install [Jekyll](https://jekyllrb.com/) on your machine to
-practice and tune your site as it is recommended in the documentation of GitHub
-Pages.
+practice and tune your site.
 
 What I learned about GitHub Pages for Technical Documentation is this:
 
-  - The markdown in your repo renders better than the GitHub Page's one, for technical
+> The markdown in your repo renders better than the GitHub Page's one, for technical
   documentation (as of this date).
 
 You can compare [this markdown file directly from the

@@ -10,6 +10,10 @@ layout: default
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
+-
+    <span>
+        {{ content | number_of_words | divided_by:180.0 | ceil }} min read
+    </span>
   </header>
 
   <div class="post-content" itemprop="articleBody">
