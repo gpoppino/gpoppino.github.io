@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
+    {% include header.html %}
   <body>
-    <div id="container">
-      <div class="inner">
-        <header>
-         {% if page.path contains '_posts' or page.url contains 'blog/' %}
-          <h2><a class="page-link" href="{{ site.url }}">{{ site.author }}'s Blog</a></h2>
-         {% else %}
-          <h2><a class="page-link" href="{{ site.url }}">{{ site.description }}</a></h2>
-         {% endif %}
-        </header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 
+    <div id="container-fluid">
+      <div class="inner">
         <hr>
         <section id="main_content">
           {{ content }}
