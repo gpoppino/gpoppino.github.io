@@ -28,7 +28,7 @@ What I learned about GitHub Pages for Technical Documentation is this:
 
 You can compare [this markdown file directly from the
 repo](https://github.com/gpoppino/suse-docs/blob/master/slepos/slepos_configure_admin_and_branch_server.md)
-with [this one](http://geronimo.guru/suse-docs/slepos/slepos_configure_admin_and_branch_server.html) from GitHub Pages.
+with [this one](http://gpoppino.github.io/suse-docs/slepos/slepos_configure_admin_and_branch_server.html) from GitHub Pages.
 
 Clearly the second one is not indented correctly. And also the first one looks more
 professional.
